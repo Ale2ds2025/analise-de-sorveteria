@@ -5,13 +5,13 @@
     font-family: 'segoe Ui',tahoma,Geneva,verdana, sans-serif;
 }
 
-body{
+body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
 }
 
-header{
+header { 
     background: linear-gradient(135deg,#6e45e2,#88d3ce);
     color:white;
     padding: 1rem 0;
@@ -19,11 +19,33 @@ header{
     box-shadow: 0 2px 5px rgba (0,0,0,0.1);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
     background-color: #fff;
     box-shadow: o 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding:1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    
 }
